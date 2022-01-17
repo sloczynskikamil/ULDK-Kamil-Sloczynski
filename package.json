@@ -1,7 +1,7 @@
 {
-  "name": "uldk-projekt-ks",
-  "version": "2.1.1",
-  "description": "",
+  "name": "sloczynskikamil",
+  "version": "1.0.0",
+  "description": "This is the starting point for a tutorial series teaching you how to build an application with LitElement, Redux, Webpack, and Vaadin router.",
   "main": "index.ts",
   "scripts": {
     "webpack": "webpack",
@@ -11,8 +11,8 @@
     "dev:sw": "npm run webpack-dev-server -- --env.mode development  --env.presets serviceworker"
   },
   "keywords": [],
-  "author": "Kamil Słoczyński - 149298",
-  "license": "free",
+  "author": "Kamil Słoczyński",
+  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.1.5",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
@@ -41,5 +41,9 @@
     "@webcomponents/webcomponentsjs": "^2.1.3",
     "lit": "^2.0.2",
     "wellknown": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "zas"
   }
 }
